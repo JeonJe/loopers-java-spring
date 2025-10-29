@@ -1,0 +1,11 @@
+language: ko-KR  # 한국어 리뷰
+
+reviews:
+  profile: assertive
+  auto_review:
+    enabled: true
+    drafts: false
+    base_branches:
+      - main
+      - "round[1-9]-base"   # round1-base ~ round9-base
+      - "round10-base"      # round10-base
